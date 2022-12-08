@@ -1,0 +1,15 @@
+Alice, 0, 2, AIlNiFcOeTC1040
+Bob, 0, 1, BIoNbFOTC040
+John, 2, 2, JIoNhFnOTC1040
+Mary, 3, 0, MIaNrFyOTC1040
+Tim, 4, 3, TIiNmFOTC1040
+Janae, 5, 1, JIaNnFaOeTC1040
+Cyd, 8, 2, CIyNdFOTC1040
+Frank, 9, 3, FIrNaFnOkTC1040s
+Tom , 1, 0, TIoNmF OTC1040
+Tom, 0, 0, TIoNmFOTC1040
+Kris, 9, 1, KIrNiFsOTC1040
+Kris, 1, 2, KIrNiFsOTC1040
+Wolfe­schlegel­stein­hausen­berger­dorff­welche­vor­altern­waren­gewissen­haft­schafers­wessen­schafe­waren­wohl­gepflege­und­sorg­faltig­keit­be­schutzen­vor­an­greifen­durch­ihr­raub­gierig­feinde­welche­vor­altern­zwolf­hundert­tausend­jah­res­voran­die­er­scheinen­von­der­erste­erde­mensch­der­raum­schiff­genacht­mit­tung­stein­und­sieben­iridium­elek­trisch­motors­ge­brauch­licht­als­sein­ur­sprung­von­kraft­ge­start­sein­lange­fahrt­hin­zwischen­stern­artig­raum­auf­der­suchen­nach­bar­schaft­der­stern­, 1, 1, WIoNlFfOeT­Cs1c0h4l0egel­stein­hausen­berger­dorff­welche­vor­altern­waren­gewissen­haft­schafers­wessen­schafe­waren­wohl­gepflege­und­sorg­faltig­keit­be­schutzen­vor­an­greifen­durch­ihr­raub­gierig­feinde­welche­vor­altern­zwolf­hundert­tausend­jah­res­voran­die­er­scheinen­von­der­erste­erde­mensch­der­raum­schiff­genacht­mit­tung­stein­und­sieben­iridium­elek­trisch­motors­ge­brauch­licht­als­sein­ur­sprung­von­kraft­ge­start­sein­lange­fahrt­hin­zwischen­stern­artig­raum­auf­der­suchen­nach­bar­schaft­der­stern­
+Wolfe­schlegel­stein­hausen­berger­dorff­welche­v, 10, 1, WIoNlFfOeT­Cs1c0h4l0egel­stein­hausen­berger­dorff­welche­v
+KristoffersonCulmer, 11, 0, KIrNiFsOtToCf1f0e4r0sonCulmer

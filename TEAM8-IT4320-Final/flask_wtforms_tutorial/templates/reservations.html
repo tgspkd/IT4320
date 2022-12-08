@@ -1,0 +1,80 @@
+{% extends 'layout.jinja2' %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/forms.css') }}" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block content %}
+<div class="formwrapper">
+  <div class="topnav" style="text-align:right;">
+    <a class="active" href="/">Home |</a>
+    <a href="/admin">Admin |</a>
+    <a href="/reservations">Reservations</a>
+  </div>
+  <h2 class="title">Reserve Your Seat</h2>
+  
+  
+  <form method="POST" action="/reservations">
+    <!-- Seating Chart -->
+    <h3 class="title">Seating Chart</h3>
+    <p>X = Reserved Seat ; O = Available Seat</p>
+  
+    <!-- Error Message -->
+    {% if err and confirm == true %}
+    <p>{{ err }}</p>
+    {% endif %}    
+    
+    <!-- Confirmation -->
+    {% if confirm == true and err is none %}
+    <p>Reservation confirmed. Your e-ticket number is: {{ ticket }}</p>
+    {% endif %} 
+    
+    <!-- Reprint Chart -->
+    {% for x in seat_chart %}
+      <!-- <ul>{{"[ " + x[0] + " | " + x[1] + " | " + x[2] + " | " + x[3] + " ]"}}</ul> -->
+      <p>{{ x }}</p>
+    {% endfor %}
+    
+      {{ form.csrf_token }}
+      <div class="form-field">{{ form.first_name.label }} {{ form.first_name }}
+        {% if form.first_name.errors %}
+          <ul class="errors">
+            {% for error in form.first_name.errors %}
+              <li>{{ error }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+      <div class="form-field">{{ form.last_name.label }} {{ form.last_name }}
+        {% if form.last_name.errors %}
+          <ul class="errors">
+            {% for error in form.last_name.errors %}
+              <li>{{ error }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+      <div class="form-field">{{ form.row.label }} {{ form.row }}
+        {% if form.row.errors %}
+          <ul class="errors">
+            {% for error in form.row.errors %}
+              <li>{{ error }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+      <div class="form-field">{{ form.seat.label }} {{ form.seat }}
+        {% if form.seat.errors %}
+          <ul class="errors">
+            {% for error in form.seat.errors %}
+              <li>{{ error }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+      
+      {{ form.reserve }}
+  </form>
+  
+</div>
+{% endblock %}
